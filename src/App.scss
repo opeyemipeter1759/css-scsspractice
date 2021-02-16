@@ -23,11 +23,10 @@
   }
   #{&}__socialLinks{
     display: flex;
-    justify-content: center;
+    justify-content: left;
     margin-top:31px;
     img{margin-left: 10px;}
   }
-  
 }
 
 $breakpoint-tablet: 768px;
@@ -46,6 +45,12 @@ $breakpoint-tablet: 768px;
     font-weight: 400;
     font-size: 29px;
     line-height: 34px;
+  }
+  #{&}__socialLinks{
+    display: flex;
+    justify-content: center;
+    margin-top:31px;
+    img{margin-left: 10px;}
   }
 }
 }
