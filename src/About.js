@@ -1,12 +1,14 @@
 import React from 'react'
 
+
 function About() {
   return (
-     <div className="about-session">
-      <h2 className="about-session__heading">About Me</h2>
-      <p className="about-session__paragraph">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti a quisquam ipsa earum maxime illo aut, neque vitae fugit molestiae, provident dolorem. Sunt at ad, ratione provident, non quis possimus itaque enim natus corrupti libero?
-      </p>
+    <div className="about-session">
+        <h2 className="about-session__heading">About Me</h2>
+        <p className="about-session__paragraph">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eget lacus tellus. Etiam nec sem nibh. Nullam pulvinar quis sapien at tincidunt. In elit quam, consectetur eget felis bibendum, egestas luctus risus. Etiam ut enim sapien. Ut dictum, mi id malesuada rhoncus, elit velit porttitor purus, sit amet lobortis elit dui eget libero. Praesent nec nibh quis felis faucibus molestie. Nullam vehicula purus quis dui commodo dapibus. Ut sed aliquam enim. Nam porta at nunc quis molestie. Nulla vel justo sit amet erat congue laoreet ut eu tellus.
+        </p>
+
     </div>
   )
 }
