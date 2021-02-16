@@ -1,11 +1,11 @@
 import './App.scss';
-import routes from './Routes'
+import Routes from './Routes'
 
 
 function App() {
   return (
     <div>
-     <routes/>
+    <Routes/>
     </div>
   );
 }
