@@ -2,11 +2,6 @@ import React from 'react'
 import github from './assests/github.svg';
 import twitter from './assests/twitter.svg';
 import linkedin from './assests/linkedin.svg';
-
-
-
-
-
 function About() {
   return (
     <div className="about-session">

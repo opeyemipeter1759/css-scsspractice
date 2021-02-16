@@ -1,10 +1,11 @@
 import './App.scss';
-import About from './About'
+import routes from './Routes'
+
 
 function App() {
   return (
     <div>
-      <About/>
+     <routes/>
     </div>
   );
 }
