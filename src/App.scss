@@ -6,6 +6,33 @@
 }
 
 .about-session{
+  width: 80%;
+  margin:133px auto;
+  #{&}__heading{
+    text-align: left;
+    font-weight: 400;
+    font-size: 50px;
+    line-height:45px;
+  }
+  #{&}__paragraph{
+    margin-top: 37px;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 27px;
+    text-align :justify ;
+  }
+  #{&}__socialLinks{
+    display: flex;
+    justify-content: center;
+    margin-top:31px;
+    img{margin-left: 10px;}
+  }
+  
+}
+
+$breakpoint-tablet: 768px;
+@media (min-width: $breakpoint-tablet) {
+  .about-session{
   width: 70%;
   margin:133px auto;
   #{&}__heading{
@@ -16,12 +43,9 @@
   }
   #{&}__paragraph{
     margin-top: 37px;
+    font-weight: 400;
     font-size: 29px;
     line-height: 34px;
   }
 }
-
-$breakpoint-tablet: 768px;
-@media (min-width: $breakpoint-tablet) {
-  
 }
