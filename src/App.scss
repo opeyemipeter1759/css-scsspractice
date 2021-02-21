@@ -80,6 +80,12 @@
 .faqBody {
   width: 90%;
   margin: 20px auto;
+  .title {
+    margin-bottom: 5px;
+    font-size: 10px;
+    font-weight: 600;
+    line-height: 19px;
+  }
 }
 
 // tablet upward to large screen
