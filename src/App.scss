@@ -80,9 +80,12 @@
 .faqBody {
   width: 90%;
   margin: 20px auto;
+  .text-head {
+    font-size: 8px;
+  }
   .title {
     margin-bottom: 5px;
-    font-size: 10px;
+    font-size: 15px;
     font-weight: 600;
     line-height: 19px;
   }
