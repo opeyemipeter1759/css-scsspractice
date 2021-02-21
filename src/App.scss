@@ -181,33 +181,40 @@ $breakpoint-tablet: 768px;
   }
   // FAQ session
   .faqBody {
-    width: 40%;
-    margin: 50px auto;
+    width: 85%;
+    margin: 59px auto;
     .text-head {
-      font-size: 8px;
-      margin-bottom: 5px;
-      color: red;
+      font-size: 12px;
+      line-height: 17px;
+      margin-bottom: 17px;
     }
     .title {
-      margin-bottom: 5px;
-      font-size: 15px;
-      font-weight: 600;
-      line-height: 19px;
+      margin-bottom: 19.5px;
+      font-size: 35px;
+      font-weight: 700;
+      line-height: 40px;
     }
-    .text,
+    .text {
+      font-size: 17px;
+      line-height: 23px;
+      font-weight: 500;
+      margin-bottom: 58.25px;
+    }
     .text-detail {
-      font-size: 8px;
-      margin-bottom: 5px;
       text-align: justify;
+      font-size: 16px;
+      line-height: 21px;
+      font-weight: 400;
+      margin: 58.25px 79px 90px 124px;
     }
     .plus {
-      width: 7px;
-      margin-right: 3px;
+      width: 10px;
+      margin-right: 32px;
       cursor: pointer;
     }
     .minus {
-      width: 7px;
-      margin-right: 3px;
+      width: 10px;
+      margin-right: 32px;
       cursor: pointer;
     }
   }
