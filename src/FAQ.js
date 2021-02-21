@@ -5,7 +5,7 @@ import minus from "./assests/minus.svg";
 function FAQ() {
   return (
     <div className="faqBody">
-      <p className="heading">QUESTIONS FREQUENTLY ASKED BY OUR VISITORS</p>
+      <p className="text">QUESTIONS FREQUENTLY ASKED BY OUR VISITORS</p>
       <h3 className="title">FAQ</h3>
       <p className="text">
         <span className="plus">
