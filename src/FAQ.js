@@ -1,50 +1,58 @@
-import React from 'react'
-import plus from './assests/plus.svg'
+import React from "react";
+import plus from "./assests/plus.svg";
+import minus from "./assests/minus.svg";
 
 function FAQ() {
   return (
     <div className="faqBody">
-      <h3 className="heading">
-        QUESTIONS FREQUENTLY ASKED  BY OUR VISITORS
-      </h3>
-      <h2 className="title">
-        FAQ
-      </h2>
-      <div>
+      <h3 className="heading">QUESTIONS FREQUENTLY ASKED BY OUR VISITORS</h3>
+      <h2 className="title">FAQ</h2>
+      <p className="text">
         <span className="plus">
           <img src={plus} alt="" />
         </span>
-        <p className="text">
-          What stocks and ETFs can I give?
-        </p>
-      </div>
-       <div>
+        What stocks and ETFs can I give?
+      </p>
+      <p className="text">
         <span className="plus">
-          <img src={plus} alt="" /> 
+          <img src={minus} alt="" />
         </span>
-        <p className="text">
-          What stocks and ETFs can I give?
-        </p>
-      </div>
-
+        What amounts can I give?
+      </p>
+      <p className="text-detail">
+        Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+        ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+        voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
+        sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+        mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus
+        error sit.
+      </p>
+      <p className="text">
+        <span className="plus">
+          <img src={plus} alt="" />
+        </span>
+        How much does it cost?
+      </p>
+      <p className="text">
+        <span className="plus">
+          <img src={plus} alt="" />
+        </span>
+        When does my gift start fluctuating with the market?
+      </p>
+      <p className="text">
+        <span className="plus">
+          <img src={plus} alt="" />
+        </span>
+        What if my recipient wants a different stock instead of the one I gave?
+      </p>
+      <p className="text">
+        <span className="plus">
+          <img src={plus} alt="" />
+        </span>
+        Is Chaka a brokerage?
+      </p>
     </div>
-  )
+  );
 }
 
-export default FAQ
-
-What amounts can I give?
-
-
-
-
-
-
-
-How much does it cost?
-
-When does my gift start fluctuating with the market?
-
-What if my recipient wants a different stock instead of the one I gave?
-
-Is Chaka a brokerage?
+export default FAQ;
