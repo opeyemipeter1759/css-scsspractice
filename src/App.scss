@@ -29,6 +29,53 @@
   }
 }
 
+
+.ItSession{
+  width:80%;
+  margin: 20px;
+  border-radius: 5px;
+  .ItImg{
+    width:100%;
+    border-radius: 1px 1px 0 0;
+  }
+  .ItBody{
+    width: 100%;
+    padding: 5px 5px 5px;
+    .ItTitle{
+      margin-bottom: 20px;
+      font-size: 14px;
+      font-weight: 600;
+      line-height: 19px;
+    }
+    .ItParagraph{
+      width: 100%;
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 19px;
+      text-align: justify;}
+    .btn {
+    text-decoration: none;
+    background-color: green;
+    color: white;
+    border-radius: 5px;
+    display: inline-block;
+    align-items: center;
+    margin: 15px 0 0 0;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 400;
+    padding: 10px 5px;}
+    .btn__text {
+      display:flex;
+      align-items: center;
+      padding: 0 5px;
+      border-radius: 0 5px 5px 0;}
+  }
+}
+
+
+
+
 $breakpoint-tablet: 768px;
 @media (min-width: $breakpoint-tablet) {
   .about-session{
@@ -52,55 +99,52 @@ $breakpoint-tablet: 768px;
     margin-top:31px;
     img{margin-left: 10px;}
   }
+ }
+.ItSession{
+  width:40%;
+  margin: 112px auto 114px;
+  border-radius: 5px;
+  border: 1px solid #dddddd;
+  box-sizing: border-box;
+  
+  .ItImg{
+    width:100%;
+    border-radius: 5px 5px 0 0;
+  }
+  .ItBody{
+    width: 100%;
+    padding: 28px 16px 18px;
+    .ItTitle{
+      margin-bottom: 20px;
+      font-size: 14px;
+      font-weight: 700;
+      line-height: 21px;
+    }
+    .ItParagraph{
+      width: 100%;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 21px;
+      text-align: justify;
+    }
+    .btn {
+      width: 100%;
+    text-decoration: none;
+    background-color: green;
+    color: white;
+    border-radius: 5px;
+    display: flex;
+    align-self: center;
+    margin: 26px 0 0 0;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: 600;
+    padding: 13px 168px;
+}
+  }
 }
 }
+
 
 // it-learning session
 
-.It-session{
-  width: 40%;
-  margin:112px auto;
-  img{ 
-    border-radius: 1px 1px 0 0;
-    width: 100%;}
-  #{&}__body{ 
-    width: 100%;
-    padding: 28px 16px 18px;
-  }
-  &__body-title{
-    font-size: 12px;
-    line-height:21px;
-    text-align:left;
-  }
-}
-
-
-$breakpoint-tablet: 768px;
-@media (min-width: $breakpoint-tablet) {
-.It-session{
-  width: 40%;
-  margin:112px auto;
-  img{ 
-    border-radius: 1px 1px 0 0;
-    width: 100%;}
-  #{&}__body{ 
-    width: 100%;
-    padding: 0 16px 0 16px;
-  }
-  &__body-title{
-    font-size: 16px;
-    line-height:21px;
-
-  }
-}
-
-}
-
-
-
-
-
-
-
- // border-radius: 0 0 10px 10px; 
-  // box-shadow: 0 0 5px 0px #ccc; 
