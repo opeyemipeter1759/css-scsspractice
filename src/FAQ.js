@@ -8,14 +8,14 @@ function FAQ() {
       <p className="text-head">QUESTIONS FREQUENTLY ASKED BY OUR VISITORS</p>
       <h1 className="title">FAQ</h1>
       <p className="text">
-        <span className="plus">
-          <img src={plus} alt="" />
+        <span>
+          <img className="plus" src={plus} alt="" />
         </span>
         What stocks and ETFs can I give?
       </p>
       <p className="text">
-        <span className="plus">
-          <img src={minus} alt="" />
+        <span>
+          <img className="minus" src={minus} alt="" />
         </span>
         What amounts can I give?
       </p>
@@ -28,26 +28,26 @@ function FAQ() {
         error sit.
       </p>
       <p className="text">
-        <span className="plus">
-          <img src={plus} alt="" />
+        <span>
+          <img className="plus" src={plus} alt="" />
         </span>
         How much does it cost?
       </p>
       <p className="text">
-        <span className="plus">
-          <img src={plus} alt="" />
+        <span>
+          <img className="plus" src={plus} alt="" />
         </span>
         When does my gift start fluctuating with the market?
       </p>
       <p className="text">
-        <span className="plus">
-          <img src={plus} alt="" />
+        <span>
+          <img className="plus" src={plus} alt="" />
         </span>
         What if my recipient wants a different stock instead of the one I gave?
       </p>
       <p className="text">
-        <span className="plus">
-          <img src={plus} alt="" />
+        <span>
+          <img className="plus" src={plus} alt="" />
         </span>
         Is Chaka a brokerage?
       </p>

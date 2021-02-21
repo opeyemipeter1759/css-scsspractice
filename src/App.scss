@@ -77,11 +77,12 @@
     }
   }
 }
+// FAQ session
 .faqBody {
   width: 90%;
   margin: 20px auto;
   .text-head {
-    font-size: 8px;
+    font-size: 7px;
     margin-bottom: 5px;
   }
   .title {
@@ -90,7 +91,21 @@
     font-weight: 600;
     line-height: 19px;
   }
-  .text {
+  .text,
+  .text-detail {
+    font-size: 8px;
+    margin-bottom: 5px;
+    text-align: justify;
+  }
+  .plus {
+    width: 7px;
+    margin-right: 3px;
+    cursor: pointer;
+  }
+  .minus {
+    width: 7px;
+    margin-right: 3px;
+    cursor: pointer;
   }
 }
 
@@ -162,6 +177,38 @@ $breakpoint-tablet: 768px;
         font-weight: 600;
         padding: 13px 168px;
       }
+    }
+  }
+  // FAQ session
+  .faqBody {
+    width: 40%;
+    margin: 50px auto;
+    .text-head {
+      font-size: 8px;
+      margin-bottom: 5px;
+      color: red;
+    }
+    .title {
+      margin-bottom: 5px;
+      font-size: 15px;
+      font-weight: 600;
+      line-height: 19px;
+    }
+    .text,
+    .text-detail {
+      font-size: 8px;
+      margin-bottom: 5px;
+      text-align: justify;
+    }
+    .plus {
+      width: 7px;
+      margin-right: 3px;
+      cursor: pointer;
+    }
+    .minus {
+      width: 7px;
+      margin-right: 3px;
+      cursor: pointer;
     }
   }
 }
